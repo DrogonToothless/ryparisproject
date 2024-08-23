@@ -2,3 +2,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --orange-yellow: rgb(231, 160, 29);
+}
+header {
+    width: 100%;
+    height: 120px;
+    background-color: var(--orange-yellow);
+}
+.ryparislogo {
+    width: 250px;
+    height: 100px;
+    background-image: url(../images/ryparis-logo.png)
+}
+nav {
+
+}
+ul {
+
+}
+li {
+
+}
