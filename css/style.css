@@ -6,6 +6,7 @@
 :root {
     --orange-yellow: rgb(246, 172, 34);
     --dark-orange-yellow: rgb(213, 139, 0);
+    --light-gray: rgb(174, 188, 199);
 }
 header {
     width: 100%;
@@ -126,4 +127,20 @@ nav ul a li:hover {
     text-align: center;
     padding-top: 15px;
     font-weight: bold;
+}
+.hrotw {
+    width: 100%;
+    background-color: var(--light-gray);
+}
+.fahitastuffedpeppers {
+    background-image: url(../images/fajita-peppers.jpeg);
+}
+.reesbreakfastmuffins {
+    background-image: url(../images/muffins.jpeg);
+}
+.eggplantparmesan {
+    background-image: url(../images/eggplant-parmesan.jpg);
+}
+.everythingpizza {
+    background-image: url(../images/pizza.jpeg);
 }
