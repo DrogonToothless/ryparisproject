@@ -131,16 +131,45 @@ nav ul a li:hover {
 .hrotw {
     width: 100%;
     background-color: var(--light-gray);
+    padding: 100px;
+    display: grid;
+    grid-template-areas: "text" "recipes";
+}
+.hrotwtext {
+    grid-area: text;
+}
+.hrotw h1 {
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.hrotw h3 {
+    font-size: 37px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.recipes {
+    grid-area: recipes;
+    display: flex;
+}
+.recipe {
+    flex: 4;
+    height: 500px;
 }
 .fahitastuffedpeppers {
     background-image: url(../images/fajita-peppers.jpeg);
+    background-size: cover;
+    background-size: contain;
 }
 .reesbreakfastmuffins {
     background-image: url(../images/muffins.jpeg);
+    background-size: cover;
 }
 .eggplantparmesan {
     background-image: url(../images/eggplant-parmesan.jpg);
+    background-size: cover;
 }
 .everythingpizza {
     background-image: url(../images/pizza.jpeg);
+    background-size: cover;
 }
