@@ -64,3 +64,11 @@ nav ul a li:hover {
     font-weight: 800;
     text-align: center;
 }
+.everydaycategories {
+   width: 100%;
+   display: grid;
+   grid-template-areas: 'text' 'breakfast lunch dinner'; 
+}
+.everydaycategoriestext {
+    grid-area: text;
+}
