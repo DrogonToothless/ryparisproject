@@ -67,8 +67,17 @@ nav ul a li:hover {
 .everydaycategories {
    width: 100%;
    display: grid;
-   grid-template-areas: 'text' 'breakfast lunch dinner'; 
+   grid-template-areas: "text" "breakfast lunch dinner"; 
 }
 .everydaycategoriestext {
     grid-area: text;
+}
+.breakfastmostimpmeal {
+    grid-area: breakfast;
+}
+.vegelunchideas {
+    grid-area: lunch;
+}
+.coldweeknightdinners {
+    grid-area: dinner;
 }
