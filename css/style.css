@@ -154,22 +154,38 @@ nav ul a li:hover {
 }
 .recipe {
     flex: 4;
-    height: 500px;
+    height: 350px;
+    margin-left: 50px;
+    position: relative;
+}
+.recipetext {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: -70px;
 }
 .fahitastuffedpeppers {
     background-image: url(../images/fajita-peppers.jpeg);
-    background-size: cover;
-    background-size: contain;
+    background-size: 375.75px 350px;
+    background-repeat: no-repeat;
 }
 .reesbreakfastmuffins {
     background-image: url(../images/muffins.jpeg);
-    background-size: cover;
+    background-size: 375.75px 350px;
+    background-repeat: no-repeat;
 }
 .eggplantparmesan {
     background-image: url(../images/eggplant-parmesan.jpg);
-    background-size: cover;
+    background-size: 375.75px 350px;
+    background-repeat: no-repeat;
 }
 .everythingpizza {
     background-image: url(../images/pizza.jpeg);
-    background-size: cover;
+    background-size: 375.75px 350px;
+    background-repeat: no-repeat;
 }
