@@ -261,3 +261,22 @@ footer {
     font-size: 18px;
     padding-top: 55px;
 }
+.recipebanner {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-image: url(../images/bengal-burger.jpg);
+    position: relative;
+}
+.recipebannertext {
+    background-color: white;
+    width: 38%;
+    position: absolute;
+    bottom: 100px;
+    left: 600px;
+}
+.recipebannertext h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
