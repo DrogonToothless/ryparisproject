@@ -246,6 +246,7 @@ footer {
     background-color: var(--orange-yellow);
     display: grid;
     grid-template-areas: "copyright nav";
+    position: relative;
 }
 .copyrighttext {
     grid-area: copyright;
@@ -301,4 +302,17 @@ footer {
 .infopiece {
     font-size: 25px;
     padding: 5px;
+}
+.recipeintro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.recipeintro h1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+.rating h1 {
+    color: red;
+    display: inline;
 }
